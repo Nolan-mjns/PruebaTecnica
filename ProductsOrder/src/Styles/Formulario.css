@@ -1,0 +1,22 @@
+#formSection {
+    width: 40%;
+    padding: 0px 100px 100px 100px;
+}
+
+.error{
+    background-color: #FBB9C5;
+    padding: 10px;
+    color: #943D4C;
+}
+
+.errorField{
+    border: 1px solid red !important;
+}
+
+@media(max-width: 1024px){
+    #formSection {
+        width: 100%;
+        padding: 20px;
+    }
+    }
+

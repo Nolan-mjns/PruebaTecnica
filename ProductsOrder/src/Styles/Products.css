@@ -1,0 +1,16 @@
+#productSection {
+    width: 40%;
+    padding: 0px 100px 100px 100px;
+}
+
+.btn-success {
+
+    float: right;
+    margin-top: 20px;
+}
+
+@media(max-width: 1024px){
+    #productSection {
+        width: 100%;
+        padding: 20px;
+    }}

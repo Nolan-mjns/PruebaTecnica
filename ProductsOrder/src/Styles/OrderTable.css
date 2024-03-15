@@ -1,0 +1,41 @@
+.table-responsive {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+th {
+   
+    background-color: #29416D;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
+
+.table{
+   margin:0px;
+}
+
+#orderSection{
+    width: 100%;
+    padding: 0px 100px 100px 100px;
+}
+
+tr, th{
+    text-align:center;
+}
+
+.details{
+    border: none;
+    background-color: #B88F63;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.details img{
+    width:30px;
+}
+
+tr:nth-child(odd) {
+    background-color: #F0F0F0;
+    
+  }
