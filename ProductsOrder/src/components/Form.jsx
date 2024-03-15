@@ -77,7 +77,7 @@ var objectProduct = {
   
   
 }
-console.log("objectProduct ", objectProduct);
+
 
 setNewProduct([...newProduct, objectProduct])
 cleanForm()

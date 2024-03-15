@@ -38,7 +38,7 @@ await fetch(url, requestOptions)
 
 useEffect(() => {
   getProducts()
-  console.log("data ", data);
+  
   
 }, [])
 

@@ -43,10 +43,10 @@ const modal = () =>{
 
      if(data && orderId){
       setLoading(false)
-      console.log("new Product ", newProduct)
+      
       //console.log("data filtered ", data.filter((orders) => orders.id === orderId));
       let filtered= data.filter((orders) => orders.id === orderId)
-      console.log("filtered items ", filtered)
+      
       let onlyItems = [];
       filtered.forEach((order) => {
       
@@ -55,7 +55,7 @@ const modal = () =>{
             onlyItems = onlyItems.concat(order.items);
         }
     });
-      console.log("only items ", onlyItems)
+      
 
       if(filtered.length > 0){
         setProduct(onlyItems)
@@ -69,9 +69,9 @@ const modal = () =>{
 
     useEffect(() => {
       if(newProduct && newProduct.length > 0){
-        console.log("product ", product)
+       
         setNewItems([...product, ...newProduct])
-        console.log("new Items ", newItems)
+       
       }else{
         setNewItems(null)
       }
