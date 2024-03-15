@@ -20,4 +20,4 @@ mencionada.
 ## Tecnologías
 HTML, CSS, Javascript, HTML, ReactJS , Vite, Bootstrap, fetch API, React Router DOM [Bootstrap](https://getbootstrap.com/docs/3.4/), [Sweetalert](https://sweetalert.js.org/)
 
-[Live Demo]([https://65b33bad3880fd7a9d87df9b--euphonious-valkyrie-1818c7.netlify.app/](https://65f3e69f8b038814d32cde33--chimerical-fudge-058367.netlify.app))
+[Live Demo](https://65f3e69f8b038814d32cde33--chimerical-fudge-058367.netlify.app)
