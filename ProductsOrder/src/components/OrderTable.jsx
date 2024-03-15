@@ -48,13 +48,13 @@ const OrderTable = ({data}) => {
 
   {data ? data.map(item => (
 <tr >
-    <td>{item.id}</td>
+    <td>{item.number}</td>
     <td>{item.status.status}</td>
     <td>{formatDate(item.dates.paidAt)}</td>
     <td>$ {item.totals.subtotal}</td>
     <td>$ {item.totals.total}</td>
     
-    <td className="buttonClass"><button className="details" onClick={() => verMas(item.id)}><img src={view}/></button></td>
+    <td className="buttonClass"><button className="details" onClick={() => verMas(item.number)}><img src={view}/></button></td>
     </tr>
     
   )) : null} 

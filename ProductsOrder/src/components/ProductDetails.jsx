@@ -44,8 +44,8 @@ const modal = () =>{
      if(data && orderId){
       setLoading(false)
       
-      //console.log("data filtered ", data.filter((orders) => orders.id === orderId));
-      let filtered= data.filter((orders) => orders.id === orderId)
+     
+      let filtered= data.filter((orders) => orders.number === orderId)
       
       let onlyItems = [];
       filtered.forEach((order) => {
