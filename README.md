@@ -1,4 +1,5 @@
 ## Prueba Técnica
+[Live Demo](https://65f3e69f8b038814d32cde33--chimerical-fudge-058367.netlify.app)
 -----
 **NOTAS:** Pruba técnica la cual, debido a los nombres de los objetos brindados decidí documentar en Inglés tanto en su interface como en código (mayormente)
 
@@ -20,4 +21,4 @@ mencionada.
 ## Tecnologías
 HTML, CSS, Javascript, HTML, ReactJS , Vite, Bootstrap, fetch API, React Router DOM [Bootstrap](https://getbootstrap.com/docs/3.4/), [Sweetalert](https://sweetalert.js.org/)
 
-[Live Demo](https://65f3e69f8b038814d32cde33--chimerical-fudge-058367.netlify.app)
+
